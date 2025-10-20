@@ -1,0 +1,613 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>De Anza Mentors Program</title> 
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head> 
+
+<body> 
+    <!-- Header --> 
+    <header class="header"> 
+        <div class="logo-container"> 
+            <img src="images/penguin-logo.svg" alt="De Anza Mentors Penguin Logo" class="logo-image" />
+        </div> 
+        <div class="title"> 
+            <h1>De Anza Mentors Program</h1> 
+            <p>Building Connections. Guiding Success.</p> 
+        </div>
+        <div class="header-cta">
+            <a href="#join" class="cta-button">Join Today</a>
+        </div>
+    </header> 
+
+    <!-- Navigation --> 
+    <nav class="nav-bar"> 
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul> 
+            <li><a href="#about">About Us</a></li> 
+            <li><a href="#mentors">Mentors</a></li> 
+            <li><a href="#events">Upcoming Events</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#faq">FAQ</a></li> 
+            <li><a href="#join">Join Us</a></li> 
+        </ul> 
+    </nav> 
+
+    <!-- About --> 
+    <section id="about" class="section fade-in"> 
+        <h2>About Us</h2> 
+        <div class="about-content">
+            <div class="about-text">
+                <p> 
+                    Mentors@De Anza is a student-run peer mentorship program under the Office of College Life at De Anza College. 
+                    We aim to connect any current student who seeks help with experienced students who will share resources for navigating De Anza. 
+                    This includes academic, extracurricular, and transfer mentorship. 
+                </p>
+                <p>
+                    Your mentor can point you to programs that can enhance your De Anza experience, and cheer you on as you find your place at De Anza. 
+                    Our ultimate goal is to foster a supportive community by providing mentorship opportunities and other resources to students. 
+                    In this long academic journey, you are not alone and we can help you! 
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <i class="fas fa-users"></i>
+                    <h3>200+</h3>
+                    <p>Students Mentored</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>85%</h3>
+                    <p>Transfer Success Rate</p>
+                </div>
+                <div class="stat-box">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>30+</h3>
+                    <p>Events Per Year</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Events --> 
+    <section id="events" class="section fade-in"> 
+        <h2>Upcoming Events</h2> 
+        <div class="card-grid"> 
+            <div class="card event-card"> 
+                <div class="event-date">
+                    <span class="month">OCT</span>
+                    <span class="day">22</span>
+                </div>
+                <div class="event-details">
+                    <h3>Welcome Party</h3> 
+                    <p class="event-time"><i class="far fa-clock"></i> 12:30-2PM</p>
+                    <p class="event-location"><i class="fas fa-map-marker-alt"></i> De Anza Conference Center A/B</p> 
+                    <p>Kick off the new quarter with games, snacks, and community bonding!</p>
+                    <a href="#" class="event-rsvp">RSVP Now</a>
+                </div>
+            </div> 
+            <div class="card event-card"> 
+                <div class="event-date">
+                    <span class="month">OCT</span>
+                    <span class="day">30</span>
+                </div>
+                <div class="event-details">
+                    <h3>Halloween Mixer</h3> 
+                    <p class="event-time"><i class="far fa-clock"></i> 02:30-4:30PM</p>
+                    <p class="event-location"><i class="fas fa-map-marker-alt"></i> De Anza Campus Center</p> 
+                    <p>Join us in costume for treats, contests, and mentor-mentee networking!</p>
+                    <a href="#" class="event-rsvp">RSVP Now</a>
+                </div>
+            </div> 
+            <div class="card event-card"> 
+                <div class="event-date">
+                    <span class="month">NOV</span>
+                    <span class="day">12</span>
+                </div>
+                <div class="event-details">
+                    <h3>UC/USC Transfer Panel</h3> 
+                    <p class="event-time"><i class="far fa-clock"></i> 04:00-6PM</p>
+                    <p class="event-location"><i class="fas fa-map-marker-alt"></i> De Anza Campus Center</p> 
+                    <p>Hear from transfer students who successfully made the leap!</p>
+                    <a href="#" class="event-rsvp">RSVP Now</a>
+                </div>
+            </div> 
+        </div>
+        <div class="view-all-container">
+            <a href="#" class="view-all-button">View All Events <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section> 
+
+    <!-- Resources Section -->
+    <section id="resources" class="section fade-in">
+        <h2>Student Resources</h2>
+        <p class="section-intro">Access these valuable resources to enhance your De Anza experience:</p>
+        
+        <div class="resources-container">
+            <div class="resource-category">
+                <h3><i class="fas fa-book"></i> Academic Success</h3>
+                <ul class="resource-list">
+                    <li>
+                        <a href="https://www.deanza.edu/studentsuccess/" target="_blank">
+                            Student Success Center
+                            <span>Free tutoring, workshops, and study skills support</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.deanza.edu/library/" target="_blank">
+                            Library Services
+                            <span>Research help, study spaces, and academic resources</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.deanza.edu/dsps/" target="_blank">
+                            Disability Support Services
+                            <span>Accommodations and support for students with disabilities</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="resource-category">
+                <h3><i class="fas fa-exchange-alt"></i> Transfer Resources</h3>
+                <ul class="resource-list">
+                    <li>
+                        <a href="https://www.deanza.edu/transfercenter/" target="_blank">
+                            Transfer Center
+                            <span>Transfer planning, university rep visits, and application help</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.assist.org/" target="_blank">
+                            ASSIST.org
+                            <span>Official transfer course agreements with California universities</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-download" data-file="transfer-timeline.pdf">
+                            Transfer Timeline Guide
+                            <span>Download our comprehensive transfer planning timeline</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="resource-category">
+                <h3><i class="fas fa-heart"></i> Health & Wellness</h3>
+                <ul class="resource-list">
+                    <li>
+                        <a href="https://www.deanza.edu/healthservices/" target="_blank">
+                            Health Services
+                            <span>Medical care, mental health counseling, and wellness programs</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.deanza.edu/food-pantry/" target="_blank">
+                            Food Pantry
+                            <span>Free food assistance for students facing food insecurity</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.deanza.edu/counseling/" target="_blank">
+                            Psychological Services
+                            <span>Free confidential counseling and mental health support</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="resource-category">
+                <h3><i class="fas fa-dollar-sign"></i> Financial Support</h3>
+                <ul class="resource-list">
+                    <li>
+                        <a href="https://www.deanza.edu/financialaid/" target="_blank">
+                            Financial Aid Office
+                            <span>Grants, scholarships, loans, and financial assistance</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.deanza.edu/scholarships/" target="_blank">
+                            Scholarship Office
+                            <span>Information on available scholarships and application help</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="resource-download" data-file="financial-guide.pdf">
+                            Student Financial Guide
+                            <span>Download our guide to managing finances as a student</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="mentor-tip">
+            <div class="tip-icon">
+                <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="tip-content">
+                <h4>Mentor Tip</h4>
+                <p>Not sure which resources are right for you? Your mentor can help you navigate these options and connect you with the specific support you need for your unique situation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentors --> 
+    <section id="mentors" class="section fade-in"> 
+        <h2>Meet Our Senior Mentors</h2>
+        <p class="section-intro">Our experienced mentors are here to guide you through your De Anza journey.</p>
+        <div class="card-grid mentors"> 
+            <div class="mentor">
+                <div class="mentor-image">
+                    <img src="images/paul.jpg" alt="Paul Nguyen">
+                    <div class="mentor-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="mentor-info">
+                    <p class="mentor-name">Paul Nguyen</p>
+                    <p class="mentor-role">Faculty Advisor</p>
+                    <p class="mentor-specialty">Computer Science</p>
+                </div>
+            </div> 
+            <div class="mentor">
+                <div class="mentor-image">
+                    <img src="images/christina.jpg" alt="Christina Tran">
+                    <div class="mentor-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="mentor-info">
+                    <p class="mentor-name">Christina Tran</p>
+                    <p class="mentor-role">Senior Mentor</p>
+                    <p class="mentor-specialty">Business Administration</p>
+                </div>
+            </div> 
+            <div class="mentor">
+                <div class="mentor-image">
+                    <img src="images/christina.jpg" alt="Yansy Ngai">
+                    <div class="mentor-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="mentor-info">
+                    <p class="mentor-name">Yansy Ngai</p>
+                    <p class="mentor-role">Senior Mentor</p>
+                    <p class="mentor-specialty">Psychology</p>
+                </div>
+            </div> 
+            <div class="mentor">
+                <div class="mentor-image">
+                    <img src="images/christina.jpg" alt="Elisha Wijaya">
+                    <div class="mentor-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="mentor-info">
+                    <p class="mentor-name">Elisha Wijaya</p>
+                    <p class="mentor-role">Senior Mentor</p>
+                    <p class="mentor-specialty">Biology</p>
+                </div>
+            </div> 
+            <div class="mentor">
+                <div class="mentor-image">
+                    <img src="images/nhi.jpg" alt="Nhi Tran">
+                    <div class="mentor-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="mentor-info">
+                    <p class="mentor-name">Nhi Tran</p>
+                    <p class="mentor-role">Senior Mentor</p>
+                    <p class="mentor-specialty">Nursing</p>
+                </div>
+            </div> 
+            <div class="mentor">
+                <div class="mentor-image">
+                    <img src="images/martina.jpg" alt="Martina Ng">
+                    <div class="mentor-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="mentor-info">
+                    <p class="mentor-name">Martina Ng</p>
+                    <p class="mentor-role">Senior Mentor</p>
+                    <p class="mentor-specialty">Communications</p>
+                </div>
+            </div> 
+            <div class="mentor">
+                <div class="mentor-image">
+                    <img src="images/dan.jpg" alt="Dan Wu">
+                    <div class="mentor-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="mentor-info">
+                    <p class="mentor-name">Dan Wu</p>
+                    <p class="mentor-role">Senior Mentor</p>
+                    <p class="mentor-specialty">Engineering</p>
+                </div>
+            </div> 
+            <div class="mentor">
+                <div class="mentor-image">
+                    <img src="images/sabai.jpg" alt="Sabai Aung">
+                    <div class="mentor-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="mentor-info">
+                    <p class="mentor-name">Sabai Aung</p>
+                    <p class="mentor-role">Senior Mentor</p>
+                    <p class="mentor-specialty">Political Science</p>
+                </div>
+            </div> 
+            <div class="mentor">
+                <div class="mentor-image">
+                    <img src="images/riko.jpg" alt="Riko Hatanaka">
+                    <div class="mentor-social">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="far fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="mentor-info">
+                    <p class="mentor-name">Rik Hatanaka</p>
+                    <p class="mentor-role">Senior Mentor</p>
+                    <p class="mentor-specialty">Film & Media Studies</p>
+                </div>
+            </div> 
+        </div>
+        <div class="become-mentor-cta">
+            <h3>Interested in becoming a mentor?</h3>
+            <p>Share your experience and help fellow students succeed!</p>
+            <a href="#join" class="cta-button">Apply to Mentor</a>
+        </div>
+    </section> 
+
+    <!-- FAQ --> 
+    <section id="faq" class="section fade-in"> 
+        <h2>Common Questions</h2> 
+        <div class="faq-container">
+            <details> 
+                <summary>Who can join the Mentors Program?</summary> 
+                <p>Any current De Anza student interested in connecting, learning, and helping peers. Both mentors and mentees must be enrolled in at least 6 units at De Anza College during the current quarter.</p> 
+            </details> 
+            <details> 
+                <summary>How are mentors and mentees paired?</summary> 
+                <p>We match based on major, interests, and goals through our online application. Our matching algorithm considers academic pathways, career interests, and personal preferences to create the most beneficial mentor-mentee relationships.</p> 
+            </details> 
+            <details> 
+                <summary>Do I need prior experience to be a mentor?</summary> 
+                <p>No! We provide comprehensive training and ongoing support to help you become an amazing mentor. The most important qualities are a willingness to help others and having completed at least two quarters at De Anza.</p> 
+            </details>
+            <details> 
+                <summary>How much time commitment is required?</summary> 
+                <p>Mentors typically spend 2-3 hours per week, including a 1-hour meeting with their mentee and program activities. Mentees commit to attending scheduled meetings and program events. The program runs for the entire quarter.</p> 
+            </details>
+            <details> 
+                <summary>What benefits do mentors receive?</summary> 
+                <p>Mentors develop leadership skills, build their resume, receive priority registration for certain events, earn volunteer hours, and get letters of recommendation. Plus, the satisfaction of making a positive impact on fellow students!</p> 
+            </details>
+            <details> 
+                <summary>Can I request a specific mentor or mentee?</summary> 
+                <p>Yes! On the application form, you can indicate if you have a specific person in mind. If both parties agree, we'll pair you together while still providing all the program benefits and support.</p> 
+            </details>
+        </div>
+        <div class="more-questions">
+            <p>Still have questions? Contact us at <a href="mailto:mentors@deanza.edu">mentors@deanza.edu</a></p>
+        </div>
+    </section> 
+
+    <!-- Join --> 
+    <section id="join" class="section fade-in join"> 
+        <h2>Join Us!</h2> 
+        <div class="join-options">
+            <div class="join-card">
+                <div class="join-icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3>Become a Mentee</h3>
+                <p>Get guidance from experienced students who've been in your shoes.</p>
+                <ul class="benefits-list">
+                    <li>Academic support and course selection advice</li>
+                    <li>Transfer planning and application assistance</li>
+                    <li>Campus resource navigation and referrals</li>
+                    <li>Community connection and networking</li>
+                </ul>
+                <button onclick="window.open('https://forms.gle/example', '_blank')" class="apply-button mentee-button">Apply as Mentee</button>
+            </div>
+            
+            <div class="join-card">
+                <div class="join-icon">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <h3>Become a Mentor</h3>
+                <p>Share your knowledge and make a difference in someone's college journey.</p>
+                <ul class="benefits-list">
+                    <li>Leadership experience for your resume</li>
+                    <li>Professional development training</li>
+                    <li>Community service hours</li>
+                    <li>Letters of recommendation</li>
+                </ul>
+                <button onclick="window.open('https://forms.gle/example', '_blank')" class="apply-button mentor-button">Apply as Mentor</button>
+            </div>
+        </div>
+        
+        <div class="application-timeline">
+            <h3>Application Timeline</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Applications Open</h4>
+                        <p>September 15, 2025</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Application Deadline</h4>
+                        <p>October 5, 2025</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Matching Process</h4>
+                        <p>October 6-10, 2025</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>Program Kickoff</h4>
+                        <p>October 22, 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section fade-in">
+        <h2>Student Success Stories</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"My mentor helped me navigate the transfer process to UC Berkeley. Without their guidance, I wouldn't have known about crucial deadlines and requirements. They made a huge difference in my academic journey!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="images/testimonial1.jpg" alt="Student Testimonial">
+                    <div>
+                        <p class="author-name">Maria Chen</p>
+                        <p class="author-detail">Transferred to UC Berkeley</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"As a first-generation college student, I felt lost until I joined the mentors program. My mentor connected me with resources I didn't know existed and helped me build confidence in my academic abilities."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="images/testimonial2.jpg" alt="Student Testimonial">
+                    <div>
+                        <p class="author-name">James Rodriguez</p>
+                        <p class="author-detail">First-Generation Student</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>"Being a mentor was just as rewarding for me as it was for my mentee. I developed leadership skills that helped me land an internship, and knowing I made a difference in someone else's college experience is priceless."</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="images/testimonial3.jpg" alt="Student Testimonial">
+                    <div>
+                        <p class="author-name">Aisha Johnson</p>
+                        <p class="author-detail">Former Mentor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-button"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="next-button"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="section fade-in">
+        <div class="newsletter-container">
+            <div class="newsletter-content">
+                <h2>Stay Connected</h2>
+                <p>Subscribe to our newsletter for program updates, events, and resources.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p class="privacy-note">We respect your privacy and will never share your information.</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer --> 
+    <footer> 
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>De Anza Mentors Program</h3>
+                <p>Building Connections. Guiding Success.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#mentors">Mentors</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#resources">Resources</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://www.deanza.edu/" target="_blank">De Anza College</a></li>
+                        <li><a href="https://www.deanza.edu/studentlife/" target="_blank">Office of College Life</a></li>
+                        <li><a href="https://www.deanza.edu/counseling/" target="_blank">Counseling</a></li>
+                        <li><a href="https://www.deanza.edu/transfercenter/" target="_blank">Transfer Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> mentors@deanza.edu</li>
+                        <li><i class="fas fa-phone"></i> (408) 555-1234</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Student Center, Room 212</li>
+                        <li><i class="fas fa-clock"></i> Office Hours: Mon-Thu 10AM-4PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 De Anza Mentors Program. All rights reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer> 
+
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script> 
+</body> 
+</html>
